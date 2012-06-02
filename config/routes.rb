@@ -1,4 +1,6 @@
 Rgsimms::Application.routes.draw do
+  postmarkdown :as => :posts
+
 
   get "home/index"
 

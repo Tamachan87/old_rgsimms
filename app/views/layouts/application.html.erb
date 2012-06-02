@@ -25,7 +25,7 @@
             <li><%= link_to "HTML", :home_html %></li>
             <li><%= link_to "Ruby", :home_ruby %></li>
             <li><%= link_to "Python", :home_python %></li>
-            <li><%= link_to "Blog", %></li>
+            <li><%= link_to "Blog", :posts %></li>
             <li><%= link_to "About Me", :home_about %></li>
           </ul>
         </div>
@@ -37,8 +37,9 @@
 </header>
 
 <body>
-
-	<%= yield %>
+<div class="container">
+  	<%= yield %>
+</div>
 
 <footer>Built with <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>, using the <a href="">twitter-bootstrap-rails</a> gem.</footer>
 </body>
