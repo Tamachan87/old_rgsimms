@@ -11,6 +11,9 @@ class HomeController < ApplicationController
   def python
   end
 
+  def blog
+  end
+
   def about
   end
 end

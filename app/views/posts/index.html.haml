@@ -1,0 +1,7 @@
+= render 'feed_link'
+
+%section#posts
+  - if collection.present?
+    = render collection, :summary => true
+  - else
+    No posts found.

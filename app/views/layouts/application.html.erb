@@ -3,8 +3,8 @@
 <head>
   <title>RG Simms</title>
   <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="/favicon.ico" alt="gentlemanraptor">
 </head>
 <header>
@@ -37,10 +37,15 @@
 </header>
 
 <body>
-<div class="container">
-  	<%= yield %>
-</div>
 
-<footer>Built with <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>, using the <a href="">twitter-bootstrap-rails</a> gem.</footer>
+    <div class="container">
+    	<%= yield %>
+    </div>
+
+
+<footer>Built with <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>, using the <a href="">twitter-bootstrap-rails</a> gem.
+<!-- Javascript at the bottom to load faster -->
+<%= javascript_include_tag "application" %>
+</footer>
 </body>
 </html>
