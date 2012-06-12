@@ -1,7 +1,12 @@
-= render 'feed_link'
+.hero-unit
+  %h1 My Blog
+  %h2 A collection of tech thoughts and tech feelings
 
-%section#posts
-  - if collection.present?
-    = render collection, :summary => true
-  - else
-    No posts found.
+.breadcrumb
+  = render 'feed_link'
+
+  %section#posts
+    - if collection.present?
+      = render collection, :summary => true
+    - else
+      No posts found.

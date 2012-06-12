@@ -1,3 +1,8 @@
-= render 'feed_link'
+.breadcrumb
+  %a{ :href => '/posts' }
+    Back
 
-= render resource, :summary => false
+.breadcrumb
+  = render 'feed_link'
+
+  = render resource, :summary => false

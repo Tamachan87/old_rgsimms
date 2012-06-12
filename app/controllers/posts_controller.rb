@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  layout lambda { |controller| Postmarkdown::Config.options[:use_theme] ? 'postmarkdown' : 'application' }
+  layout lambda { |controller| Postmarkdown::Config.options[:use_theme] = 'application' }
 
   def show
     resource
