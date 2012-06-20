@@ -3,11 +3,10 @@
     %h1 My Blog
     %h2 A collection of tech thoughts and tech feelings
 
-  .breadcrumb
-    = render 'feed_link'
+  = render 'feed_link'
 
-    %section#posts
-      - if collection.present?
-        = render collection, :summary => true
-      - else
-        No posts found.
+  %section#posts
+    - if collection.present?
+      = render collection, :summary => true
+    - else
+      No posts found.
