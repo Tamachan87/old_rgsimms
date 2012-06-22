@@ -17,9 +17,11 @@ The lessons are taught with the instructions and explanations on the left and a 
 ##Mind over matter...mind under matter? Doesn't matter. Nevermind.
 With the little JS/coding stepping stone stepped over I dove in and went through the lessons. The little bar on the left hand side gives you a (very) short explanation of the concept it's teaching, and a small task at the bottom. These vary from "write an entire function" to "just run the code". I'm not joking about the latter. In fact, it happens pretty often.
 
-![code1]()
+![code1](http://i211.photobucket.com/albums/bb81/Tamachan87/codecademyrun.png)
 
-![code2]()
+![code2](http://i211.photobucket.com/albums/bb81/Tamachan87/codepoint.png)
+
+![code3](http://i211.photobucket.com/albums/bb81/Tamachan87/FunctionsandjQuery-JavascriptreviewforjQuery|Codecademy.png)
 
 This is probably the biggest problem I have with Codecademy. Whilst it's ideal of making the massively intimidating task of learning to code more accessible and immediately interactive, as someone who has spent a few years as a teacher, just saying "read this until it makes sense" is a horrible way of learning. In fact, for the most part you don't write much code of your own - you simply modify a word or a line of a block of prewritten code and click run. The use of badges (or achievements or trophies, whatever the kids are measuring their e-penis' with these days) can be a nice little incentive for some to keep going, but for the more hoarding-challenged amongst us this just results in clicking run and never really learning what happened, why, and what for.
 
