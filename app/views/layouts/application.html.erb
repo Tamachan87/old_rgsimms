@@ -2,7 +2,11 @@
 <html>
 <head>
   <title>RG Simms</title>
-  <%= stylesheet_link_tag    "application" %>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+  <![endif]-->
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="/favicon.ico" alt="gentlemanraptor">
@@ -49,16 +53,15 @@
 
 <body>
 
-    <div class="container">
-    	<%= yield %>
-    </div>
+  <div class="container">
+  	<%= yield %>
+  </div>
 
 
-<footer>Built with <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>, using the <a href="">twitter-bootstrap-rails</a> gem.
+  <footer>Built with <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>, using the <a href="">twitter-bootstrap-rails</a> gem.</footer>
 
 <!-- Javascript at the bottom to load faster -->
 <%= javascript_include_tag "application" %>
 
-</footer>
 </body>
 </html>
