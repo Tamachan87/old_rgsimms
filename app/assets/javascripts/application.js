@@ -14,9 +14,3 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
-
-$('#contactme').click(function() {
-  $('#well').toggle('slow', function() {
-    // Animation complete.
-  });
-});
