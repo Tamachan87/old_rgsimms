@@ -4,6 +4,8 @@ author: Richard Simms
 email: rgsimms87@gmail.com
 ---
 
+# ImageMagick
+
 [ImageMagick](http://www.imagemagick.org "ImageMagick") is an extremely handy commandline based image manipulation program. This program is very useful, especially when dealing with a lot of images that you need resizing or editting. It even has a feature that you can merge images, or align them side by side in a grid or horizontal/vertical line.
 
 ![MountainDew](http://i211.photobucket.com/albums/bb81/Tamachan87/dew.jpg)
