@@ -1,8 +1,9 @@
-.span9.offset1
-  .breadcrumb
-    %a{ :href => '/posts' }
-      Back
+.blog
+  .span9.offset1
+    .breadcrumb
+      %a{ :href => '/posts' }
+        Back
 
-  = render 'feed_link'
+    = render 'feed_link'
 
-  = render resource, :summary => false
+    = render resource, :summary => false
