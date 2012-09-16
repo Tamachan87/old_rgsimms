@@ -1,10 +1,8 @@
 ---
-title: My work computer
+title: My Work Computer: A Review
 author: Richard Simms
 email: rgsimms87@gmail.com
 ---
-
-#My Work Computer: A Review
 
 When you work for any organization that gives you a standardised computer for all your work needs, it infuses a sense of belonging to said organisation. It makes you feel like you belong and makes you trust your boss more since he or she has been so generous to you. Let's review my little special piece of hardware, I lovingly nicknamed "Chunk".
 

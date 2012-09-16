@@ -1,10 +1,8 @@
 ---
-title: Kantan-Blog
+title: Kantan-Blog: My First RubyGem
 author: Richard Simms
 email: rgsimms87@gmail.com
 ---
-
-# Kantan-Blog: My first RubyGem
 
 ## Idea
 

@@ -1,10 +1,8 @@
 ---
-title: Codecademy
+title: My Review of Codecademy
 author: Richard Simms
 email: rgsimms87@gmail.com
 ---
-
-#My review of Codecademy
 
 ##Backstory.js
 I have always dabbled more in design before my love of development took over. I love making cool things more than making things look cool. I found Codecademy through a [LifeHacker](http://us.lifehacker.com/5836220/codecademy-is-a-free-interactive-webapp-that-teaches-you-how-to-code "LifeHacker") article. It seemed all lovely jubbly so I signed up expecting to be flinging awesome dropdown animated menus and maybe even a little game or two as a last big test of my JavaScript Ninjaness.

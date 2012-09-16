@@ -4,7 +4,7 @@ author: Richard Simms
 email: rgsimms87@gmail.com
 ---
 
-# My nerdy habits
+## My nerdy habits
 
 ## Coding
 
